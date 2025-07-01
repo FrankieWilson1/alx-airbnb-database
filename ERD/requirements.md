@@ -70,7 +70,7 @@ This section describes each core entity (table) in the database and its correspo
 
 Below is a visual diagram illustrating the entities and their relationships within the database schema.
 
-![AirBnB Database Diagram](https://github.com/user-attachments/assets/03b648a1-bcf4-432a-bfd1-3690bd3a903e)
+![AirBnB Database Diagram](/alx-airbnb-database/ERD/requirements.md)
 
 ## Relationship Overview
 
