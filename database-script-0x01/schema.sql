@@ -1,5 +1,5 @@
 /*
-The following SQL fefines the schema for alx-airbnb-like database,
+The following SQL Defines the schema for alx-airbnb-like database,
 specifying the entities (tables), their attributes (columns),
 data types, constraints, and indexes for optimal performance and data integrity.
 */
