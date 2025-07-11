@@ -9,7 +9,9 @@ SELECT
     B.total_price
 FROM
     Users U
-    INNER JOIN Booking B ON U.user_id = B.user_id -- Left JOIN
+    INNER JOIN Booking B ON U.user_id = B.user_id
+
+-- LEFT JOIN
 SELECT
     p.property_id,
     p.name AS property_name,
@@ -19,7 +21,13 @@ SELECT
     R.comment
 FROM
     Property P
-    LEFT JOIN Review R ON P.property_id = R.property_id -- FULL OUTER JOIN
+LEFT JOIN
+	Review R ON P.property_id = R.property_id
+ORDER BY
+    P.name ASC,
+	R.created_at DESC;
+
+-- FULL OUTER JOIN
 SELECT
     U.user_id,
     U.first_name,

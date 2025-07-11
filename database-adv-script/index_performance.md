@@ -26,7 +26,6 @@ Based on common application usage patterns (e.g., filtering, joining, ordering d
 Below are the SQL commands to create the appropriate indexes for the identified columns. You can save these commands in a file named `database_index.sql`.
 
 ```sql
--- database_index.sql
 
 -- Indexes for Booking table
 CREATE INDEX idx_booking_property_id ON Booking (property_id);

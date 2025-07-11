@@ -57,6 +57,7 @@ VALUES (
     '00000000-0000-0000-0000-00000000000Z', -- IMPORTANT: This is the booking_id from the Booking table
     44.99, -- Amount should match total_price from Booking
     'credit_card' -- payment method
+);
 
 -- Inserting into Review table
 INSERT INTO Review (review_id, property_id, user_id, rating, comment)
